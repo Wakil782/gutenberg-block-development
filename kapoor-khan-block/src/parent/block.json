@@ -1,0 +1,17 @@
+{
+  "apiVersion": 3,
+  "name": "amar/parent-block",
+  "title": "Parent Block",
+  "category": "layout",
+  "icon": "grid-view",
+  "description": "Parent block with child blocks inside",
+  "attributes": {
+    "title": { "type": "string", "default": "" }
+  },
+  "editorScript": "file:index.js",
+  "render": "file:render.php",
+  "supports": {
+    "html": false,
+    "innerBlocks": true
+  }
+}

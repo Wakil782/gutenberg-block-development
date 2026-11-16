@@ -1,0 +1,26 @@
+{
+    "apiVersion": 3,
+    "name": "amar/narindar-block",
+    "title": "Narinder Block",
+    "category": "layout",
+    "icon": "grid-view",
+    "attributes": {
+        "text": {
+            "type": "string",
+            "default": "parent Block"
+        },
+        "color": {
+            "type": "string",
+            "default": "#ff0000"
+        }
+    },
+    "providesContext": {
+        "amar/color": "color"
+    },
+    "description": "parent block new static block",
+    "editorScript": "file:index.js",
+    "render": "file:render.php",
+    "supports": {
+    "html": false
+}
+}

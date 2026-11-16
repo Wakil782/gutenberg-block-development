@@ -1,0 +1,32 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/harkipta-second-static-block",
+	"version": "0.1.0",
+	"title": "Harkipta Second Static Block",
+	"category": "widgets",
+	"icon": "dashicons-lightbulb",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"attributes": {
+		"buttonText": {
+			"type": "string",
+			"default": "visit website"
+		},
+		"link": {
+			"type": "object",
+			"default": {
+				"url": "",
+				"opensInNewTab": false
+			}
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "harkipta-second-static-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

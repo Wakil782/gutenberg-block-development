@@ -1,0 +1,89 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/team-member-block",
+	"version": "0.1.0",
+	"title": "Team Member Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"name": {
+		   "type": "string",
+		    "default": "wakil"
+		},
+		"designation": {
+			"type": "string",
+			"default": "web devloper"
+		},
+		"description": {
+			"type": "string",
+			"default": "passoinate developer createing modern websites."
+		},
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"imageId": {
+			"type": "number"
+		},		
+		"facebookUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"linkedinUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"twitterUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"buttonText": {
+			"type": "string",
+			"default": "View profile"
+		},
+		"buttonUrl": {
+			"type": "string",
+			"default": "#"
+		},
+		"showSocial": {
+			"type": "boolean",
+			"default": true
+		},
+		"cardBackground": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"nameColor": {
+			"type": "string",
+			"default": "#111827"
+		},
+		"designationColor": {
+			"type": "string",
+			"default": "#64748b"
+		},
+		"buttonColor": {
+			"type": "string",
+			"default": "#0073aa"
+		},
+		"buttonTextColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"imageSize": {
+			"type": "number",
+			"default": 150
+		}
+	},
+	"textdomain": "team-member-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}

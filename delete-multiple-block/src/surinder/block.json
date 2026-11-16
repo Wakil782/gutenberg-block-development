@@ -1,0 +1,20 @@
+{
+    "apiVersion": 3,
+    "name": "amar/surinder-block",
+    "title": "surinder Block",
+    "category": "layout",
+    "icon": "star-filled",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": "child Block"
+        }
+    },
+    "usesContext": ["amar/color"],
+    "parent": [
+        "amar/narindar-block"
+    ],
+    "description": "child block new static block",
+    "editorScript": "file:index.js",
+    "render": "file:render.php"
+}

@@ -1,0 +1,32 @@
+
+.team-member-editor {
+    padding: 15px;
+    border: 1px dashed #cbd5e1;
+    border-radius: 8px;
+}
+
+.team-member-editor .team-member-card {
+    margin: 0 auto;
+}
+
+.team-member-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: #e2e8f0;
+    color: #475569;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.team-member-editor .block-editor-rich-text__editable {
+    min-height: 1em;
+}
+
+.team-member-editor .team-member-social a {
+    cursor: text;
+}

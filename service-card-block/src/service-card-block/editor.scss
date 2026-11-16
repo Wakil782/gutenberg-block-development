@@ -1,0 +1,30 @@
+
+.service-card-editor .service-card-preview {
+    padding: 30px 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.service-card-preview .service-card-icon {
+    font-size: 46px;
+    margin-bottom: 18px;
+}
+
+.service-card-preview h3 {
+    font-size: 23px;
+    margin: 0 0 14px;
+    color: #192e58;
+}
+
+.service-card-preview p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #666666;
+    margin-bottom: 24px;
+}
+
+.service-card-preview .service-card-button {
+    cursor: default;
+}

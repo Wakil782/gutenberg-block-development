@@ -1,0 +1,62 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/wakil-testimonial-block",
+  "version": "0.1.0",
+  "title": "Wakil Testimonial Block",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "example": {},
+  "attributes": {
+    "clientName": {
+      "type": "string",
+      "default": "Rahim Ahmed"
+    },
+    "designation": {
+      "type": "string",
+      "default": "Founder & CEO"
+    },
+    "company": {
+      "type": "string",
+      "default": "Creative Solutions"
+    },
+    "testimonial": {
+      "type": "string",
+      "default": "Working with this team was a great experience. They delivered excellent work and communicated clearly throughout the project."
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageId": {
+      "type": "number",
+      "default": 0
+    },
+    "rating": {
+      "type": "number",
+      "default": 5
+    },
+    "cardBackground": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#333333"
+    },
+    "accentColor": {
+      "type": "string",
+      "default": "#e0a526"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "wakil-testimonial-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

@@ -1,0 +1,20 @@
+{
+  "apiVersion": 3,
+  "name": "amar/child-block",
+  "title": "Child Block",
+  "icon": "plus",
+  "category": "layout",
+  "parent": ["amar/parent-block"],
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": "Child er text ekhane likho"
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#f0f0f0"
+    }
+  },
+  "editorScript": "file:index.js",
+  "render": "file:render.php"
+}

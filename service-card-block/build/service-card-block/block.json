@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/service-card-block",
+  "version": "0.1.0",
+  "title": "Service Card Block",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "example": {},
+  "attributes": {
+    "serviceTitle": {
+      "type": "string",
+      "default": "Web development"
+    },
+    "description": {
+      "type": "string",
+      "default": "we build modren and responsive website for your business."
+    },
+    "icon": {
+      "type": "string",
+      "default": "💻"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Learn More"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "cardBackground": {
+      "type": "string",
+      "default": "#ffffff"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "service-card-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}
